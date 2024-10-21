@@ -1,0 +1,49 @@
+/* Styling for the hero section */
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background: rgb(179,174,238);
+  background: linear-gradient(90deg, rgba(179,174,238,1) 0%, rgba(233,148,231,1) 100%);
+  color: white;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.book-btn {
+  background-color: white;
+  color: #6e78f7;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+}
+
+.book-btn:hover {
+  background-color: #f1f1f1;
+}
+
+.hero-image {
+  display: flex;
+  gap: 20px;
+}
+
+.doctor-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
